@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dlg-font.css"/>
+    <title>字体对话框</title>
+</head>
+<body>
+    <div class="notepad-dlg-font">
+        <div class="notepad-dlgbox">
+          <div class="notepad-dlg-titlebar">
+            <p class="title">字体</p>
+            <span class="close-btn">✖</span>
+          </div>
+          <div class="main notepad-dlg-main">
+            <div class="font-family"><p>字体(F):</p></div>
+            <div class="font-style"><p>字形(Y):</p></div>
+            <div class="font-size"><p>大小(S):</p></div>
+            <fieldset class="sample">
+              <legend>示例</legend>
+              <p>AaBbYyZz</p>
+            </fieldset>
+            <div class="script">
+              <label>
+                脚本(R):<br>
+                <select>
+                  <option value="西欧语言">西欧语言</option>
+                  <option value="中文 GB2312">中文 GB2312</option>
+                </select>
+              </label>
+            </div>
+            <input class="btn-ok btn" type="button" value="确定">
+            <input class="btn-cancel btn" type="button" value="取消">
+          </div>
+        </div>
+      </div>
+      <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script src="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      <script src="./dlg-font.js"></script>
+</body>
+</html>
